@@ -7,13 +7,20 @@ Usage:
 
 from setuptools import setup
 
-APP = ['main.py']
-DATA_FILES = []
-OPTIONS = {'argv_emulation': True, 'site_packages': True}
-
 setup(
-    app=APP,
-    data_files=DATA_FILES,
-    options={'py2app': OPTIONS},
+    name='The JSONing',
+    version='0.1.0',
+    packages=['src'],
+    author='mallocator',
+    author_email='mallox@pyxzl.net',
+    url='https://github.com/mallocator/JSONing',
+    app=['src/main.py'],
+    options={
+        'py2app':{
+            'argv_emulation': True,
+            'site_packages': True
+        }
+    },
     setup_requires=['py2app'],
+    license='Apache License 2.0',
 )

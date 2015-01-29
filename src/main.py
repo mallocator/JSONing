@@ -38,11 +38,11 @@ class TestWindow(Window):
 
     def set_text_cmd(self):
         self.view.text = test_text
-    
+
     def mono_cmd(self):
         self.view.font = mono_font
         self.setup_tabs()
-    
+
     def sans_cmd(self):
         self.view.font = sans_font
         self.setup_tabs()
