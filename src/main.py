@@ -10,7 +10,7 @@ tab_text = \
 A\tB\tC"""
 
 test_text = \
-"""This is just an example of
+"""This is just an example that shows
 how you could insert any text that you want
 in this editor at any time
 """
